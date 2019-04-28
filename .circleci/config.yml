@@ -12,8 +12,12 @@ jobs:
       - aws-s3/copy:
           from: 'website/*'
           to: 's3://phantomstack.com'
-          arguments: '--dryrun'
+          arguments: |
+            --dryrun \
+            --recursive
       - aws-s3/copy:
           from: 'website/*'
           to: 's3://www.phantomstack.com'
-          arguments: '--dryrun'
+          arguments: |
+            --dryrun \
+            --recursive
