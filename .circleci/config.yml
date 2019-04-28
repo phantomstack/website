@@ -2,9 +2,7 @@ version: 2.1
 orbs:
   aws-s3: circleci/aws-s3@1.0.8
 jobs:
-  build:
-    branches:
-      - master
+  deploy:
     docker:
       - image: 'circleci/python:2.7'
     steps:
@@ -23,3 +21,12 @@ jobs:
           arguments: |
             --dryrun \
             --recursive
+workflows:
+   version: 2
+   deploytoS3:
+     jobs:
+       - test:
+          filters:
+            branches:
+              only: master
+
