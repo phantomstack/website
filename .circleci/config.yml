@@ -1,12 +1,10 @@
 version: 2.1
-general:
-  branches:
-    only:
-      - master
 orbs:
   aws-s3: circleci/aws-s3@1.0.8
 jobs:
   build:
+    branches:
+      - master
     docker:
       - image: 'circleci/python:2.7'
     steps:
