@@ -1,0 +1,19 @@
+version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@1.0.8
+jobs:
+  build:
+    docker:
+      - image: 'circleci/python:2.7'
+    steps:
+      - run: mkdir website
+      - checkout:
+          path: 'website'
+      - aws-s3/copy:
+          from: 'website/*'
+          to: 's3://phantomstack.com'
+          arguments: '--dryrun'
+      - aws-s3/copy:
+          from: 'website/*'
+          to: 's3://www.phantomstack.com'
+          arguments: '--dryrun'
