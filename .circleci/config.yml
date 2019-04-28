@@ -10,13 +10,13 @@ jobs:
       - checkout:
           path: 'website'
       - aws-s3/copy:
-          from: 'website'
+          from: 'website/phantomstack'
           to: 's3://phantomstack.com'
           arguments: |
             --dryrun \
             --recursive
       - aws-s3/copy:
-          from: 'website'
+          from: 'website/phantomstack'
           to: 's3://www.phantomstack.com'
           arguments: |
             --dryrun \
