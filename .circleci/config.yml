@@ -1,8 +1,15 @@
 version: 2.1
+general:
+  branches:
+    only:
+      - master
 orbs:
   aws-s3: circleci/aws-s3@1.0.8
 jobs:
   build:
+    filters:
+      branches:
+        only: master
     docker:
       - image: 'circleci/python:2.7'
     steps:
@@ -12,12 +19,10 @@ jobs:
       - aws-s3/copy:
           from: 'website/phantomstack'
           to: 's3://phantomstack.com'
-          arguments: |
-            --dryrun \
+          arguments:
             --recursive
       - aws-s3/copy:
           from: 'website/phantomstack'
           to: 's3://www.phantomstack.com'
-          arguments: |
-            --dryrun \
+          arguments:
             --recursive
