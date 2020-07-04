@@ -15,12 +15,6 @@ jobs:
           arguments: |
             --dryrun \
             --recursive
-      - aws-s3/copy:
-          from: 'website/phantomstack'
-          to: 's3://www.phantomstack.com'
-          arguments: |
-            --dryrun \
-            --recursive
 workflows:
    version: 2
    deploytoS3:
