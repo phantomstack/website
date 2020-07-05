@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhantomStack</title>
+    <link>https://phantomstack.com/</link>
+    <description>Recent content on PhantomStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2020 12:35:05 +0200</lastBuildDate>
+    
+	<atom:link href="https://phantomstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://phantomstack.com/blog/cloud/</link>
+      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      
+      <guid>https://phantomstack.com/blog/cloud/</guid>
+      <description>Hello World &amp;ldquo;All the clody goodness and more.&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="language" content="en">
+        <meta name="description" content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
+        <meta name="keywords" content="{{ delimit .Keywords " , " }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+          <!-- Twitter -->
+        {{ if isset .Site.Params "twitter" }}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="{{ .Title }}" />
+        <meta name="twitter:description" content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}"
+        />
+        <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+        <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+        {{ end }}
+        
+        <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.0/dist/siimple.min.css">
+        <title>PhantomStack | {{ .Title }}</title>
+        <style>
+            body { 
+                font-family: Montserrat;
+                background-image: linear-gradient(white, white, white, white, #929abd);
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+  </head>
+  <body>
+    <div class="siimple-navbar theme-navbar siimple-navbar--large">
+        <a class="siimple-navbar-title" href="index.html">
+            <span class="siimple-brand">Phantom</span>
+            <span class="siimple--text-normal" style="margin-left:-5px">Stack</span>
+        </a>
+        <a class="siimple-navbar-subtitle">&#945</a>
+        <a class="siimple-navbar-item siimple--float-right siimple--display-sm-none" href="https://github.com/phantomstack" target="_blank">
+            GitHub
+        </a>
+        <!-- <a class="siimple-navbar-item siimple--float-right siimple--display-sm-none" href="offerings.html" target="">
+            Offerings
+        </a> -->
+        <a class="siimple-navbar-item siimple--float-right siimple--display-sm-none" href="/blog" target="">
+            Blog
+        </a>
+        <a class="siimple-navbar-item siimple--float-right siimple--display-sm-none" href="/index.html" target="">
+            About Us
+        </a>
+    </div>
+
+    {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+
+    <div class="theme-footer siimple-footer" style="text-align: center;">   
+        <div class="siimple-rule"></div>
+        Ambitious solutions are build with collaboration. Let's connect. :)
+        <a class="siimple-footer-link" href="mailto:team@phantomstack.com" target="blank">
+            team@phantomstack.com
+        </a>
+        <div class="siimple--mt-5">
+            Built with Hugo, hosted on S3 &#9825;
+        </div>
+    </div>
+  </body>
+</html>
