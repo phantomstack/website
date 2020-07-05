@@ -1,3 +1,7 @@
+---
+title: "About Us"
+---
+
 ### Who are we?
 We are a dedicated Team. Over the past few years we have been building a Cloud and Software Engineering department with   
 a main goal of innovation and improvement of legacy systems, with 

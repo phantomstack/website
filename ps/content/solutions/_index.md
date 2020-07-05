@@ -1,3 +1,8 @@
+---
+title: "Solutions"
+---
+
+
 ## PhantomStack Platform - (Coming Soon)
 &nbsp;&nbsp;&nbsp;&nbsp;**PhantomStack Orchestrator**  
 &nbsp;&nbsp;&nbsp;&nbsp;Workflow builder and run-time for all the workflows and platform actions.
