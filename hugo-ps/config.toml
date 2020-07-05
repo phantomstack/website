@@ -1,0 +1,65 @@
+baseURL = "https://phantomstack.com/"
+languageCode = "en-us"
+title = "PhantomStack"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10
+googleAnalytics = ""
+enableRobotsTXT = true
+theme = ["codex"]
+
+[author]
+  name = "Akshat Tandon"
+  homepage = "https://www.phantomstack.com"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  linkedin      = "https://www.linkedin.com/company/phantomstack"
+  github        = "https://github.com/phantomstack"
+  iconTitles    = ["LinkeIn", "GitHub"]
+
+[menu]
+
+    [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = "10"
+
+    [[menu.main]]
+    identifier = "aboutus"
+    name = "about us"
+    title = "About Us"
+    url = "/aboutus"
+    weight = "20"
+
+    [[menu.main]]
+    identifier = "solutions"
+    name = "solutions"
+    title = "Solutions"
+    url = "/solutions"
+    weight = "30"
+
+    [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "Blog"
+    url = "/blog"
+    weight = "40"
+    
+    [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "Contact"
+    url = "mailto:team@phantomstack.com"
+    weight = "50"
