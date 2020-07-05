@@ -25,41 +25,52 @@ theme = ["codex"]
 [params]
   linkedin      = "https://www.linkedin.com/company/phantomstack"
   github        = "https://github.com/phantomstack"
-  iconTitles    = ["LinkeIn", "GitHub"]
+  email         = "mailto:team@phantomstack.com"
+  iconTitles    = ["LinkeIn", "GitHub", "Email"]
 
-[menu]
-
-    [[menu.main]]
-    identifier = "home"
-    name = "home"
-    title = "Home"
-    url = "/"
-    weight = "10"
-
-    [[menu.main]]
-    identifier = "aboutus"
-    name = "about us"
-    title = "About Us"
-    url = "/aboutus/"
-    weight = "20"
-
-    [[menu.main]]
-    identifier = "solutions"
-    name = "solutions"
-    title = "Solutions"
-    url = "/solutions/"
-    weight = "30"
-
-    [[menu.main]]
-    identifier = "blog"
-    name = "blog"
-    title = "Blog"
-    url = "/blog"
-    weight = "40"
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
     
-    [[menu.main]]
-    identifier = "contact"
-    name = "contact"
-    title = "Contact"
-    url = "mailto:team@phantomstack.com"
-    weight = "50"
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  identifier = "home"
+  name = "home"
+  title = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "aboutus"
+  name = "about us"
+  title = "About Us"
+  url = "/aboutus"
+  weight = 20
+
+[[menu.main]]
+  identifier = "solutions"
+  name = "solutions"
+  title = "Solutions"
+  url = "/solutions"
+  weight = 30
+    
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"
+  weight = 40
+
+[[menu.main]]
+  identifier = "contact"
+  name = "contact"
+  title = "Contact"
+  url = "mailto:team@phantomstack.com"
+  weight = "50"
