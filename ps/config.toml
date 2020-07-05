@@ -40,14 +40,14 @@ theme = ["codex"]
     identifier = "aboutus"
     name = "about us"
     title = "About Us"
-    url = "/aboutus"
+    url = "/aboutus/"
     weight = "20"
 
     [[menu.main]]
     identifier = "solutions"
     name = "solutions"
     title = "Solutions"
-    url = "/solutions"
+    url = "/solutions/"
     weight = "30"
 
     [[menu.main]]
