@@ -1,31 +1,17 @@
 {{ define "links" }}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.0/dist/siimple.min.css"> -->
     <link rel="stylesheet" type="text/css" href="/css/sections.css">
 {{ end }}
-
 
 {{ define "main" }}
 
 <div class="splash-container">
   <div class="splash">
-    <h1>{{ .Params.heading }}</h1>
-    {{ if isset .Params "handle" }}
-    <span class="handle">@{{ .Params.handle }}</span>
-    {{ end }}
-    <h2>
-      {{ .Params.subheading }}
-    </h2>
     <p>
         {{ .Content }}
     <p>
     {{ partial "social-icons.html" .}}
-    
   </div>
 </div>
-
-    <!-- <p class="siimple-p">
-      {{ .Content }}
-    </p> -->
 
 {{ end }}
