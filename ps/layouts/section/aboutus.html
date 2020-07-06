@@ -1,10 +1,9 @@
 {{ define "links" }}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.0/dist/siimple.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/sections.css">
 {{ end }}
 
-{{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
-{{ end }}
 
 {{ define "main" }}
 
@@ -24,5 +23,9 @@
     
   </div>
 </div>
+
+    <!-- <p class="siimple-p">
+      {{ .Content }}
+    </p> -->
 
 {{ end }}
