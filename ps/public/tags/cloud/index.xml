@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Cloud</title>
-      <link>https://phantomstack.com/blog/cloud/</link>
+      <title>Why Cloud? - Episode 1</title>
+      <link>https://phantomstack.com/blog/why-cloud-ep1/</link>
       <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
       
-      <guid>https://phantomstack.com/blog/cloud/</guid>
-      <description>Hello World &amp;ldquo;All the clody goodness and more.&amp;rdquo;</description>
+      <guid>https://phantomstack.com/blog/why-cloud-ep1/</guid>
+      <description>Episode 1 What is Cloud? The question that everybody out there seems to have an answer for, in one way or another. Public Cloud, Private Cloud are among many terms associated with certain labels that are circulating around in the technology community such AWS, Azure, GCP etc. Nothing new. This seems like a magical potion that if consumed will mysteriously resolve all the daily challenges that Infrastructure Teams and Developers are encountering.</description>
     </item>
     
   </channel>
