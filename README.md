@@ -1,4 +1,8 @@
-# phantomstack.com
-Website for PhantomStack
+# PhantomStack's corporate web
 
-Hosted on S3
+## Pre Deployment
+On Mac run the following before pushing changes to publish.
+```make pre-deployment-mac```
+
+----
+Built with Hugo. Hosted on S3.
