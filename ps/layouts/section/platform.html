@@ -1,17 +1,18 @@
 {{ define "links" }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.1/dist/siimple.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500">
     <link rel="stylesheet" type="text/css" href="/css/sections.css">
 {{ end }}
 
 {{ define "main" }}
 
-<div class="splash-container">
-  <div class="splash">
+<div class="siimple-box--white">
+  <!-- <div class="splash"> -->
     <p>
         {{ .Content }}
     <p>
-    {{ partial "social-icons.html" .}}
-  </div>
+    {{ partial "social-icons.html" .}}<br><br>
+  <!-- </div> -->
 </div>
 
 {{ end }}
