@@ -1,13 +1,12 @@
 {{ define "links" }}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.1/dist/siimple.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500">
+    <link rel="stylesheet" type="text/css" href="/css/sections.css">
 {{ end }}
 
-{{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
-{{ end }}
 
 {{ define "main" }}
-<div class="splash-container">
+<div class="siimple-box--white">
   <div>
     <h1 style="font-size: 3em;"><img width="37" height="37" src="./images/logo.png"> {{ .Params.heading }}<span class="fancy">.</span></h1>
     {{ if isset .Params "handle" }}
@@ -24,8 +23,7 @@
       <a href="mailto:team@phantomstack.com" target="blank">
         Let's connect</a>
       </p>
-    {{ partial "social-icons.html" .}}
-    
+    {{ partial "social-icons.html" .}}<br><br>
   </div>
 </div>
 

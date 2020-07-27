@@ -55,10 +55,10 @@ theme = ["codex"]
   weight = 20
 
 [[menu.main]]
-  identifier = "solutions"
-  name = "solutions"
-  title = "Solutions"
-  url = "/solutions"
+  identifier = "platform"
+  name = "platform"
+  title = "platform"
+  url = "/platform"
   weight = 30
     
 [[menu.main]]
@@ -69,8 +69,15 @@ theme = ["codex"]
   weight = 40
 
 [[menu.main]]
-  identifier = "contact"
-  name = "contact"
-  title = "Contact"
-  url = "mailto:team@phantomstack.com"
-  weight = "50"
+  identifier = "impressum"
+  name = "impressum"
+  title = "Impressum"
+  url = "/impressum"
+  weight = 40
+
+[[menu.main]]
+  identifier = "privacy"
+  name = "privacy"
+  title = "Privacy Policy"
+  url = "/privacy"
+  weight = 40

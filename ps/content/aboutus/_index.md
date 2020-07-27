@@ -8,5 +8,3 @@ We possess thorough knowledge in the areas of: Microsoft Azure, Amazon Web Servi
 
 ### The motivation.
 People. Mindset. Innovation.
-
-
