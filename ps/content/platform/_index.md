@@ -4,6 +4,8 @@ title: "Solutions"
 
 
 ## PhantomStack Platform
+An ecosystem that glues together essential tooling and guidance for compliant infrastructure orchestration lifecycle and provides well-defined interfaces for extensibility into the user’s current tooling landscape.
+
 &nbsp;&nbsp;&nbsp;&nbsp;<img height="60" src="/images/psOrchestrator.png" alt="PhantomStack Orchestrator">
 <br>&nbsp;&nbsp;&nbsp;&nbsp;Workflow builder and run-time for all the workflows and platform actions.
 
