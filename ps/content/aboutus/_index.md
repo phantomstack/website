@@ -7,4 +7,4 @@ We are a dedicated Team. Over the past few years we have been building a Cloud a
 We possess thorough knowledge in the areas of: Microsoft Azure, Amazon Web Services, VMware, CI/CD, Infrastructure as Code, Docker and many more.
 
 ### The motivation.
-People. Mindset. Innovation.
+People. Transformation. Innovation.
