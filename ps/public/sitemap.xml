@@ -45,12 +45,6 @@
   </url>
   
   <url>
-    <loc>https://phantomstack.com/aboutus/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://phantomstack.com/impressum/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
