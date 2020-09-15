@@ -5,10 +5,6 @@
     <link>https://phantomstack.com/privacy/</link>
     <description>Recent content in Privacy Policy on PhantomStack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://phantomstack.com/privacy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://phantomstack.com/privacy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
