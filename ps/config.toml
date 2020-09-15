@@ -24,9 +24,10 @@ theme = ["codex"]
 
 [params]
   linkedin      = "https://www.linkedin.com/company/phantomstack"
+  crunchbase    = "https://www.crunchbase.com/organization/phantomstack"
   github        = "https://github.com/phantomstack"
   email         = "mailto:team@phantomstack.com"
-  iconTitles    = ["LinkeIn", "GitHub", "Email"]
+  iconTitles    = ["LinkeIn", "Crunchbase", "GitHub", "Email"]
 
 # This disables Hugo's default syntax highlighting in favor
 # of prismjs. If you wish to use Hugo's default syntax highlighting
