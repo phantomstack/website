@@ -1,20 +1,12 @@
 ---
-title: "Solutions"
+title: "Platform"
 ---
 
-
 ## PhantomStack Platform
-An ecosystem that glues together essential tooling and guidance for compliant infrastructure orchestration lifecycle and provides well-defined interfaces for extensibility into the user’s current tooling landscape.
+An ecosystem that glues together essential tooling and guidance for compliant IT infrastructure delivery and provides well-defined interfaces for extensibility into the user’s current tooling landscape.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img height="60" src="/images/psOrchestrator.png" alt="PhantomStack Orchestrator">
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Workflow builder and run-time for all the workflows and platform actions.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Workflow builder and run-time for Infrastructure as Code tools with extensible interfaces.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img height="60" src="/images/psMarketplace.png" alt="PhantomStack Marketplace">
-<br>&nbsp;&nbsp;&nbsp;&nbsp;IaC templates, application code snippets, and one-click solutions.
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img height="60" src="/images/psBackbone.png" alt="PhantomStack Backbone">
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Easy, automated solution for building a multi-cloud transit network with encryption, security and visibility at focus.
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img height="60" src="/images/psAndromeda.png" alt="PhantomStack Andromeda">
-<br>&nbsp;&nbsp;&nbsp;&nbsp;PhantomStack's AI core, IoT Infrastructure Automation and Edge Computing.<br><br>
-
+<br>&nbsp;&nbsp;&nbsp;&nbsp;One stop shop for compliant Infrastructure as Code and extensible psWorkflow templates.

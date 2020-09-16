@@ -49,13 +49,6 @@ theme = ["codex"]
   weight = 10
 
 [[menu.main]]
-  identifier = "aboutus"
-  name = "about us"
-  title = "About Us"
-  url = "/aboutus"
-  weight = 20
-
-[[menu.main]]
   identifier = "platform"
   name = "platform"
   title = "platform"
