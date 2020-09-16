@@ -1,9 +1,9 @@
 ---
-title: "Solutions"
+title: "Platform"
 ---
 
 ## PhantomStack Platform
-An ecosystem of proven tools and technical guidance to get you started with Compliant Infrastructure delivery in no time.
+An ecosystem that glues together essential tooling and guidance for compliant IT infrastructure delivery and provides well-defined interfaces for extensibility into the user’s current tooling landscape.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img height="60" src="/images/psOrchestrator.png" alt="PhantomStack Orchestrator">
 <br>&nbsp;&nbsp;&nbsp;&nbsp;Workflow builder and run-time for Infrastructure as Code tools with extensible interfaces.
